@@ -6,18 +6,14 @@ var answer = Math.floor(Math.random() * 10 + 1);
 var resultColor = document.getElementById("result");
 var btnClicked = document.getElementById("SubmitBtn");
 
-
 console.log(answer)
-
-
-
 
 //FUNCTIONS--------------------------------------
 
 function submitGuess(){
+    
     var guessedNum = document.getElementById("inputNum").value;
 
-    
     console.log(answer)
 
     if(guessedNum > answer){
